@@ -30,16 +30,16 @@ class WelcomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  width: 100, // Ancho de las líneas
-                  height: 2, // Grosor de las líneas
+                  width: 120, // Ancho de las líneas
+                  height: 1.5, // Grosor de las líneas
                   color: Colors.grey,
                 ),
                 const SizedBox(width: 5), // Espacio entre las líneas y la "O"
-                const Text('O', style: TextStyle(fontSize: 20)),
+                const Text('O', style: TextStyle(fontSize: 17)),
                 const SizedBox(width: 5), // Espacio entre las líneas y la "O"
                 Container(
-                  width: 100, // Ancho de las líneas
-                  height: 2, // Grosor de las líneas
+                  width: 120, // Ancho de las líneas
+                  height: 1.5, // Grosor de las líneas
                   color: Colors.grey,
                 ),
               ],
